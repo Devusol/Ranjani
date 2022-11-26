@@ -1,0 +1,182 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gilroy-Regular
+FamilyName:Gilroy
+StyleName:Regular
+MenuName:Gilroy
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gilroy
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/Gilroy-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:53840
+FileModTime:552212955
+NameArray:0,Mac,4,Gilroy
+NameArray:0,Win,1,Gilroy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gilroy-Black
+FamilyName:Gilroy
+StyleName:Black
+MenuName:Gilroy Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Gilroy Black
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/Gilroy-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55640
+FileModTime:552212953
+NameArray:0,Mac,4,Gilroy Black
+NameArray:0,Win,1,Gilroy Black
+NameArray:0,Win,16,Gilroy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gilroy-RegularItalic
+FamilyName:Gilroy
+StyleName:Regular Italic
+MenuName:Gilroy Italic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Gilroy Regular Italic
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/Gilroy-RegularItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58116
+FileModTime:552212955
+NameArray:0,Mac,4,Gilroy Regular Italic
+NameArray:0,Win,1,Gilroy Italic
+NameArray:0,Win,16,Gilroy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DINCondensed-Bold
+FamilyName:DIN Condensed
+StyleName:Bold
+MenuName:DIN Condensed
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:DIN Condensed Bold
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/DIN Condensed Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:211528
+FileModTime:556235900
+NameArray:0,Mac,18,DIN Condensed Bold
+NameArray:0,Mac,4,DIN Condensed Bold
+NameArray:0,Win,1,DIN Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:574708479
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gilroy-Bold
+FamilyName:Gilroy
+StyleName:Bold
+MenuName:Gilroy Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gilroy Bold
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/Gilroy-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55376
+FileModTime:552212953
+NameArray:0,Mac,4,Gilroy Bold
+NameArray:0,Win,1,Gilroy Bold
+NameArray:0,Win,16,Gilroy
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gilroy-SemiBold
+FamilyName:Gilroy
+StyleName:SemiBold
+MenuName:Gilroy SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Gilroy SemiBold
+WritingScript:Roman
+OutlineFileName:/Users/emilyfightscrime/Dropbox/Client – Working Files/Ranjani Groth/_Deliverables/04 Welcome Kit/Working Files/Document fonts/Gilroy-SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55212
+FileModTime:552212955
+NameArray:0,Mac,4,Gilroy SemiBold
+NameArray:0,Win,1,Gilroy SemiBold
+NameArray:0,Win,16,Gilroy
+%EndFont
+

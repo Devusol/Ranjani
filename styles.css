@@ -1,0 +1,38 @@
+/* RESET ALL MARGINS & PADDING */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* COLORS */
+:root {
+  --mustard: #d6932a;
+  --salmon: #f1ae87;
+  --rust: #c47554;
+  --saddle: #944435;
+  --sand: #decec6;
+  --oyster: #c8b1ab;
+  --grey: #c6c6c9;
+  --forest: #28493c;
+  --deepGreen: #1c2e32;
+}
+
+/* TEXT */
+
+
+.bg-lightMarble {
+  background-image: url("/assets/textures/LightMarble.webp");
+}
+
+#mainLogo {
+  width: 200px;
+  position: absolute;
+  top: 2px;
+}
+
+.btn-outline-primary {
+  border-color: var(--mustard);
+  border-radius: 100px;
+  border-width: 2px;
+  color: var(--mustard);
+}
