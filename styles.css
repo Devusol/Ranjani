@@ -17,17 +17,122 @@
   --deepGreen: #1c2e32;
 }
 
-/* TEXT */
+.colorMustard {
+  color: var(--mustard);
+}
 
+.colorSalmon {
+  color: var(--salmon);
+}
 
+.colorRust {
+  color: var(--rust);
+}
+
+.colorSaddle {
+  color: var(--saddle);
+}
+
+.colorSand {
+  color: var(--sand);
+}
+
+.colorOyster {
+  color: var(--oyster);
+}
+
+.colorGrey {
+  color: var(--grey);
+}
+
+.colorForest {
+  color: var(--forest);
+}
+.colorDeepGreen {
+  color: var(--deepGreen);
+}
+
+/* FONTS*/
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("/assets/fonts/Gilroy-Black.otf");
+}
+
+.Gilroy16Black {
+  font-family: "Gilroy-Black";
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/assets/fonts/Gilroy-Regular.otf");
+}
+@font-face {
+  font-family: "DIN";
+  src: url("/assets/fonts/DIN\ Condensed\ Bold.ttf");
+}
+
+h1 {
+  color: var(--mustard);
+  font-family: "DIN";
+  font-size: 80px;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 4.5rem;
+}
+
+h2 {
+  color: white;
+  font-family: "Gilroy-Black";
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+h3 {
+  color: var(--grey);
+  font-family: pulpo, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+}
+
+h4 {
+  color: var(--grey);
+  font-family: pulpo, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: pulpo, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 24px;
+}
+p {
+  color: black;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+section {
+  margin: 0 5%;
+}
+
+/* NAV */
 .bg-lightMarble {
   background-image: url("/assets/textures/LightMarble.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainLogo {
   width: 200px;
   position: absolute;
   top: 2px;
+  z-index: 100;
 }
 
 .btn-outline-primary {
@@ -35,4 +140,85 @@
   border-radius: 100px;
   border-width: 2px;
   color: var(--mustard);
+  font-family: "Gilroy-Black";
 }
+
+/* HERO */
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/Groth_FatherDaughter.webp");
+
+  /* Set a specific height */
+  height: 92%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-middle {
+  text-align: left;
+  position: absolute;
+  top: 68%;
+  left: 5%;
+  color: white;
+}
+
+.hero-text-middle h2 {
+  margin-left: 3px;
+}
+
+.hero-text-bottom {
+  text-align: center;
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  color: white;
+}
+
+.sectionImage {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.sectionImageFull {
+  max-height: 50vh;
+  object-fit: cover;
+  object-position: 0% 20%;
+}
+
+.marginTop5 {
+  margin-top: 5%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.smilesImage {
+  position: relative;
+}
+
+.simpleSmilesLocation {
+  position: absolute;
+  bottom: -40px;
+  left: 16px;
+}
+
+.bg-whiteWave {
+    background-image: url("/assets/images/whiteWave.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 48.3%;
+    top: 300px;
+    margin-top: -100px;
+  }
