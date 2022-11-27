@@ -70,6 +70,15 @@
   src: url("/assets/fonts/DIN\ Condensed\ Bold.ttf");
 }
 
+.aUnder {
+  color: var(--rust);
+  font-family: "Gilroy-Black";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+
 h1 {
   color: var(--mustard);
   font-family: "DIN";
@@ -109,6 +118,13 @@ h5 {
   font-style: italic;
   font-size: 24px;
 }
+
+h6 {
+  font-family: "Gilroy-Black";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+}
 p {
   color: black;
   font-family: "Gilroy-Regular";
@@ -121,13 +137,80 @@ section {
   margin: 0 5%;
 }
 
-/* NAV */
+/* BACKGROUNDS */
 .bg-lightMarble {
   background-image: url("/assets/textures/LightMarble.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.bg-cremePaper {
+  background-image: url("/assets/textures/CremePaper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-doveGreyPaper {
+  background-image: url("/assets/textures/Dove-GreyPaper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-dove {
+  background-image: url("/assets/textures/Dove.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-marbleBrowns {
+  background-image: url("/assets/textures/Marble-Browns.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-marbleBW {
+  background-image: url("/assets/textures/Marble-BW.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-pebble {
+  background-image: url("/assets/textures/Pebble.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-sandGrain {
+  background-image: url("/assets/textures/SandGrain.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-woodGrain {
+  background-image: url("/assets/textures/WoodGrain.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-ourStory {
+  background-image: url("/assets/textures/ourStoryback.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.bg-pricing {
+  background-image: url("/assets/textures/pricing.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.bg-inquire {
+  background-image: url("/assets/textures/inquire.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* NAV */
 #mainLogo {
   width: 200px;
   position: absolute;
@@ -143,6 +226,15 @@ section {
   font-family: "Gilroy-Black";
 }
 
+.btn-primary {
+  border-color: var(--mustard);
+  background-color: var(--mustard);
+  border-radius: 100px;
+  border-width: 2px;
+  color: white;
+  font-family: "Gilroy-Black";
+}
+
 /* HERO */
 body,
 html {
@@ -155,7 +247,8 @@ html {
   background-image: url("/assets/images/Groth_FatherDaughter.webp");
 
   /* Set a specific height */
-  height: 92%;
+  height: 93%;
+  top: 7%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: left;
@@ -215,10 +308,66 @@ html {
 }
 
 .bg-whiteWave {
-    background-image: url("/assets/images/whiteWave.svg");
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 48.3%;
-    top: 300px;
-    margin-top: -100px;
-  }
+  background-image: url("/assets/images/whiteWave.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 48.3%;
+  top: 300px;
+  margin-top: -100px;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+  height: 90vh;
+  max-height: 90vh;
+  min-height: 90vh;
+}
+
+.bioPic {
+  height: 10rem;
+}
+
+.bioText {
+  top: -10%;
+  margin: 0 !important;
+  line-height: 1rem;
+}
+
+.textInfo {
+  height: 55vh;
+  width: 100vw;
+  padding: 5%;
+}
+
+.experienceText {
+  margin-top: -10px;
+}
+
+.col-59 {
+  flex: 0 0 auto;
+  width: calc(50% - 2px);
+}
+
+.col-39 {
+  flex: 0 0 auto;
+  width: calc(33.3333% - 2px);
+}
+
+.stonePaper {
+  max-width: 90%;
+  margin: auto;
+}
+
+#leafStamp {
+  width: 139px;
+  top: 2px;
+}
+
+/* footer */
+
+#footerLogo {
+  width: 200px;
+  top: 2px;
+  z-index: 100;
+}
