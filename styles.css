@@ -316,12 +316,50 @@ html {
   margin-top: -100px;
 }
 
+.bg-WoodWave {
+  background-image: url("/assets/images/WoodWave.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+  margin-top: -300px;
+  background-size: cover;
+  background-position: left;
+}
+
+.bg-MarbleWave {
+  background-image: url("/assets/images/MarbleWave.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 90%;
+  margin-top: -360px;
+  background-size: cover;
+  background-position: right;
+}
+
 /* CAROUSEL */
 
 .carousel-item {
   height: 90vh;
   max-height: 90vh;
   min-height: 90vh;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: var(--mustard);
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  display: none;
 }
 
 .bioPic {
@@ -336,6 +374,12 @@ html {
 
 .textInfo {
   height: 55vh;
+  width: 100vw;
+  padding: 5%;
+}
+
+.pictureInfo {
+  height: 75vh;
   width: 100vw;
   padding: 5%;
 }
@@ -364,6 +408,24 @@ html {
   top: 2px;
 }
 
+#circleStem {
+  width: 88px;
+  top: -40px;
+  position: absolute;
+  margin-left: 80px;
+}
+
+#circleStemModal {
+  width: 88px;
+  top: -40px;
+
+}
+
+#circleTwoModal {
+  width: 160px;
+  top: -40px;
+}
+
 /* footer */
 
 #footerLogo {
@@ -371,3 +433,46 @@ html {
   top: 2px;
   z-index: 100;
 }
+
+.socialLogo {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/* CONTACT MODAL */
+
+.modal-header {
+  border: none;
+}
+
+.form-control {
+  border-radius: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: var(--mustard);
+}
+
+::placeholder {
+  color: var(--grey) !important;
+  font-family: "Gilroy-Black";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.modal-xl {
+
+  opacity: 97%;
+
+}
+
+
+/* BUTTON CLOSE */
+
+.btn-close {
+  background: url("/assets/stamps/x.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
