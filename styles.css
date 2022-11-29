@@ -88,10 +88,27 @@ h1 {
   line-height: 4.5rem;
 }
 
+.h1Desktop {
+  color: var(--mustard);
+  font-family: "DIN";
+  font-size: 9rem;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 6.5rem;
+}
+
 h2 {
   color: white;
   font-family: "Gilroy-Black";
   font-size: 24px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.h2Desktop {
+  color: white;
+  font-family: "Gilroy-Black";
+  font-size: 2.65rem;
   letter-spacing: 3px;
   margin: 0;
 }
@@ -142,6 +159,13 @@ section {
   background-image: url("/assets/textures/LightMarble.webp");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-lightMarbleSmiles {
+  background-image: url("/assets/textures/LightMarble.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38%;
 }
 
 .bg-cremePaper {
@@ -244,7 +268,7 @@ html {
 }
 
 /* The hero image */
-.hero-image {
+.hero-image-mobile {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("/assets/images/Groth_FatherDaughter.webp");
 
@@ -253,7 +277,22 @@ html {
   top: 7%;
 
   /* Position and center the image to scale nicely on all screens */
-  background-position: left;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-desktop {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/pricing/Yoby.Tina.Family-171-Edit-Edit.webp");
+
+  /* Set a specific height */
+  height: 100%;
+  top: 0%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -280,13 +319,29 @@ html {
   color: white;
 }
 
-.sectionImage {
+.hero-text-bottom-mobile {
+  text-align: left;
+  left: 5%;
+  position: absolute;
+  bottom: 1%;
   width: 100%;
+  color: white;
+}
+
+.sectionImage {
+  max-width: 100%;
   margin: 5% 0;
+  max-height: 90vh;
 }
 
 .sectionImageFull {
   max-height: 50vh;
+  object-fit: cover;
+  object-position: 0% 20%;
+}
+
+.sectionImageFull100 {
+
   object-fit: cover;
   object-position: 0% 20%;
 }
@@ -313,7 +368,7 @@ html {
   background-image: url("/assets/images/whiteWave.svg");
   width: 100%;
   background-repeat: no-repeat;
-  padding-bottom: 48.3%;
+  padding-bottom: 48.2%;
   top: 300px;
   margin-top: -100px;
 }
@@ -341,9 +396,9 @@ html {
 /* CAROUSEL */
 
 .carousel-item {
-  height: 90vh;
-  max-height: 90vh;
-  min-height: 90vh;
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .carousel-indicators [data-bs-target] {
