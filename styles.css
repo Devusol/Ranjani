@@ -77,6 +77,11 @@
   letter-spacing: 3px;
   text-decoration-thickness: 2px;
   text-underline-offset: 8px;
+  cursor: pointer;
+}
+
+*[data-bs-toggle="modal"] {
+  cursor: pointer
 }
 
 h1 {
