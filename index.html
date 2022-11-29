@@ -98,7 +98,8 @@
             <div
                 class="col-lg-3 col-md-12 d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center justify-content-center">
 
-                <button class="btn btn-outline-primary" type="submit">SCHEDULE SESSION</button>
+                <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                    target="_blank"><button class="btn btn-outline-primary" type="submit">FREE CONSULTATION</button></a>
             </div>
         </div>
     </div>
@@ -134,7 +135,8 @@
                 in one place. We know, right? Chef’s kiss.<br><br>
 
                 Welcome to Ranjani Groth Studios.<br><br>
-                <button class="btn btn-outline-primary" type="submit">SCHEDULE SESSION</button>
+                <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                    target="_blank"><button class="btn btn-outline-primary" type="submit">FREE CONSULTATION</button></a>
             </p>
 
         </div>
@@ -189,7 +191,9 @@
 
             <h6 class="colorForest text-end">Are you ready to try something new?</h6>
             <div class="text-end">
-                <button class="btn btn-outline-primary mt-3" type="submit">LET'S GET STARTED</button>
+                <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                    target="_blank"><button class="btn btn-outline-primary mt-3" type="submit">LET'S GET
+                        STARTED</button></a>
             </div>
         </section>
     </div>
@@ -349,7 +353,7 @@
                             <span class="nowrap">ART</span><br>
 
                             <div>
-                                <img class="sectionImage" src="/assets/images/dean-15 copy.webp" alt="Ranjani Groth">
+                                <img class="sectionImage" src="/assets/images/dean-15 copy.webp" alt="Dean">
                             </div>
                     </section>
                 </div>
@@ -570,21 +574,25 @@
                 <span class="nowrap">"studio portraits" forget it </span>
             </h4>
 
-
-
         </div>
         <div class="row  justify-content-between p-0 ">
             <div class="col-59 bg-doveGreyPaper ">
-                <h4 class="colorDeepGreen p-3 text-center m-1">Before, during
-                    and after</h4>
+                <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalBeforeAfter">
+                    <h4 class="colorDeepGreen p-3 text-center m-1">Before, during
+                        and after</h4>
+                </div>
             </div>
             <div class="col-59 bg-marbleBrowns ">
-                <h4 class="colorDeepGreen p-3 text-center m-1">Pets and kids</h4>
+                <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalPetsKids">
+                    <h4 class="colorDeepGreen p-3 text-center m-1">Pets and kids</h4>
+                </div>
             </div>
 
         </div>
         <div class="row bg-marbleBW my-1 ">
-            <h4 class="colorDeepGreen p-3 text-center m-1">Welcome to our studio</h4>
+            <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalStudio">
+                <h4 class="colorDeepGreen p-3 text-center m-1">Welcome to our studio</h4>
+            </div>
         </div>
 
     </div>
@@ -605,10 +613,17 @@
             <h6 class="colorForest text-center mt-3">Learn more about who we are, what we do, and why we’re committed to
                 sharing your very best photos with you less than an hour after our session.</h6>
             <div class="text-center pt-1"><br>
-                <a class="aUnder ">WHY BLACK + WHITE?</a><br><br>
-                <a class="aUnder ">CLASSIC PORTRAITS</a><br>
+                <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalBlackWhite">
+                    <a class="aUnder ">WHY
+                        BLACK + WHITE?</a>
+                </div>
+                <br><br>
+                <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalClassicPort"><a
+                        class="aUnder ">CLASSIC PORTRAITS</a></div><br>
                 <img id="leafStamp" src="/assets/stamps/RG-ThreeLeaf.svg" alt="Leaf Stamp"><br>
-                <button class="btn btn-outline-primary mt-3 " type="submit">LET'S GET STARTED</button>
+                <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                    target="_blank"><button class="btn btn-outline-primary mt-3 " type="submit">LET'S GET
+                        STARTED</button></a>
             </div>
         </section>
     </div>
@@ -640,19 +655,22 @@
             <img class="sectionImage" src="/assets/images/sanders-zacmari-5.webp" alt="Sanders Zacmari">
         </div>
         <div>
+
             <h5 class="colorSaddle text-center">Art that means something
 
             </h5>
+
 
         </div>
 
         <div class=" text-center">
             <img id="leafStamp" src="/assets/stamps/RG-TwoStems.svg" alt="Two Stems Stamp"><br>
         </div>
-        <div class=" text-center">
-            <a class="aUnder text-center">TIMELESS AND MODERN</a><br><br>
+        <div class="row my-1" data-bs-toggle="modal" data-bs-target=".ModalTimeless">
+            <div class=" text-center">
+                <a class="aUnder text-center">TIMELESS AND MODERN</a><br><br>
+            </div>
         </div>
-
     </section>
 
     <!-- PRICING -->
@@ -681,28 +699,32 @@
     <!-- PRICING ITEMS -->
     <div class="stonePaper mt-3">
 
-        <div class="row bg-sandGrain">
+        <div class="row my-1 bg-sandGrain" data-bs-toggle="modal" data-bs-target=".ModalEach">
+
             <h4 class="colorDeepGreen p-3 text-center">Each photo session is a flat fee of $300
 
             </h4>
+
         </div>
         <div class="row  justify-content-between p-0 my-1">
-            <div class="col-39 bg-doveGreyPaper ">
+
+            <div class="col-39 bg-doveGreyPaper" data-bs-toggle="modal" data-bs-target=".ModalMatted">
                 <h4 class="colorDeepGreen p-3 text-center m-1">Matted Prints</h4>
             </div>
-            <div class="col-39 bg-woodGrain  ">
+
+            <div class="col-39 bg-woodGrain" data-bs-toggle="modal" data-bs-target=".ModalPhotoBoxes">
                 <h4 class="colorDeepGreen p-3 text-center m-1">Photo Boxes</h4>
             </div>
-            <div class="col-39 bg-cremePaper">
+            <div class="col-39 bg-cremePaper" data-bs-toggle="modal" data-bs-target=".ModalCanvases">
                 <h4 class="colorDeepGreen p-3 text-center m-1">Canvases</h4>
             </div>
 
         </div>
         <div class="row  justify-content-between p-0 my-1">
-            <div class="col-59 bg-marbleBW">
+            <div class="col-59 bg-marbleBW" data-bs-toggle="modal" data-bs-target=".ModalAcrylics">
                 <h4 class="colorDeepGreen p-3 text-center m-1">Acrylics</h4>
             </div>
-            <div class="col-59 bg-dove">
+            <div class="col-59 bg-dove" data-bs-toggle="modal" data-bs-target=".ModalDigital">
                 <h4 class="colorDeepGreen p-3 text-center m-1">Digital Images</h4>
             </div>
 
@@ -744,7 +766,8 @@
             </div>
 
             <div class=" text-center">
-                <button class="btn btn-outline-primary" type="submit">SCHEDULE TODAY</button>
+                <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                    target="_blank"><button class="btn btn-outline-primary">FREE CONSULTATION</button></a>
             </div>
 
             <div class="mt-3">
@@ -881,7 +904,9 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <button class="btn btn-outline-primary mb-2" type="submit">SCHEDULE SESSION</button>
+                        <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                            target="_blank"><button class="btn btn-outline-primary mb-2" type="submit">FREE
+                                CONSULTATION</button></a>
                         <h6 class="colorMustard mb-1">OR</h6>
                         <h5 class="colorForest mb-5">Drop us a line</h5>
                     </div>
@@ -1101,7 +1126,101 @@
                     </div>
 
                     <div class="text-center pb-3">
-                        <button class="btn btn-outline-primary" type="submit">LET'S GET STARTED</button>
+                        <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                            target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                STARTED</button></a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- BEFORE DURING AFTER -->
+    <div class="modal fade ModalBeforeAfter " tabindex="-1" aria-labelledby="ModalBeforeAfter" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content bg-doveGreyPaper">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+                        <div>
+
+                            <div>
+                                <img class="sectionImage" src="/assets/images/Robertson.Jasmin.Family-41 copy.webp"
+                                    alt="Robertson Jasmin">
+                            </div>
+                            <div>
+                                <h2 class="text-center colorRust">BEFORE
+                                </h2>
+                            </div>
+                            <div class="colorSaddle">
+                                <p>Our goal is to intuitively answer any questions before you even have them! We start
+                                    with a questionnaire to get to know you and your family. We love hearing about your
+                                    lives, hopes you have for your images, and what you like to do as a family! It helps
+                                    us personalize your entire session. You can also expect our custom photo guide, with
+                                    tips on how to prepare, helping your kids feel included, dressing ideas, along with
+                                    local places we think you’ll love.</p>
+                                <br><br>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div>
+                                <img class="sectionImage" src="/assets/images/Tanner.Krista.Family-22 copy.webp"
+                                    alt="Tanner Krista">
+                            </div>
+                            <div>
+                                <h2 class="text-center colorRust">DURING
+                                </h2>
+                            </div>
+                            <div class="colorSaddle">
+                                <p>When you arrive for your session, we’ll start with a laidback chat and get to know
+                                    each other. This is a great way to get comfortable, especially for younger kids who
+                                    may need to ease into the session. During your session, you’re never expected to
+                                    freeze and hold a smile. We’ll guide you through the entire process, but we want you
+                                    to feel like yourselves. That means warm interaction, natural movement and genuine
+                                    emotion. The average session, including photos, editing and viewing, is two hours.
+                                </p>
+                                <br><br>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div>
+                                <img class="sectionImage" src="/assets/images/Carrillo.Katie.Family-38 copy.webp"
+                                    alt="Carrillo Katie">
+                            </div>
+                            <div>
+                                <h2 class="text-center colorRust">AFTER
+                                </h2>
+                            </div>
+                            <div>
+                                <p>After your photo session, you have some time to chill on one of
+                                    our comfortable couches (there are plenty of toys for kids too) with a coffee, a
+                                    snack or a book. Within an hour, we’ll present the best of the best images from your
+                                    session on a large screen. Instead of expecting you to wade through gobs of photos
+                                    on your own, we’ve expertly selected the images we think you’ll love. Together,
+                                    we’ll pick the final images and guide you through choosing how to display them in
+                                    your home.
+                                </p><br><br>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-center pb-3">
+                        <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                            target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                STARTED</button></a>
                     </div>
 
 
@@ -1111,43 +1230,681 @@
         </div>
     </div>
 
-    <!-- BEFORE DURING AFTER -->
-
-
     <!-- PETS & KIDS -->
+    <div class="modal fade ModalPetsKids " tabindex="-1" aria-labelledby="ModalPetsKids" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header bg-marbleBrowns">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
 
+                    <div class="text-center">
+                        <div>
+
+                            <div>
+                                <h2 class="colorRust">PETS + KIDS</h2>
+                                <br>
+                            </div>
+
+                            <div>
+                                <P>Yes, we know they’re not the same, but sometimes their needs are. (Hey there, toilet
+                                    emergencies :) ) You can count on us to include your children in the entire process,
+                                    so they feel engaged and free to be themselves. With pets, we’re always excited to
+                                    introduce ourselves with a little snuggle and a treat. And when they have an
+                                    accident in the studio (don’t worry, it happens), we’ll be right there to clean it
+                                    up and get back to our session.
+                                </P>
+                                <br><br>
+                            </div>
+                        </div>
+
+
+                        <div>
+
+                            <div class="colorSaddle text-center">
+                                <h5>“She has confidence without being cocky. She’s super communicative and has these
+                                    really good packages that offer a lot that also comes with amazing ability.”
+                                    —Estelle</h5>
+                                <br><br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="text-center pb-3">
+                        <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                            target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                STARTED</button></a>
+                    </div>
+
+
+                </div>
+
+                <div class="modal-footer bg-marbleBrowns">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- WELCOME TO OUR STUDIO -->
+    <div class="modal fade ModalStudio " tabindex="-1" aria-labelledby="ModalStudio" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+                        <div>
+
+                            <div>
+                                <h5 class="colorForest">Welcome to our studio</h5>
+
+                            </div>
+
+                            <div>
+                                <p>We’re over here living out all our Nancy Meyer Film dreams. Our space is intimate,
+                                    comfortable and cozy. Once you step inside, we want you to feel totally taken care
+                                    of, from the homey vibes in the lounge to the quality toys for your kids to explore.
+                                    Grab a snack, help yourself to a tea or coffee—we take caffeine needs seriously over
+                                    here—and feel at home. When you’re here, consider the space yours.
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+
+
+                        <div>
+
+                            <div class="colorOyster text-center">
+                                <h2 class="colorOyster">Our studio is ADA compliant and an inviting, inclusive space for
+                                    all.</h2>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h5 class="colorForest">Here’s to images that tell your story with artistry and authenticity
+                            </h5>
+                            <br>
+                        </div>
+
+                    </div>
+
+                    <div class="text-center pb-3">
+                        <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                            target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                STARTED</button></a>
+                    </div>
+
+                    <div class=" text-center">
+                        <img id="leafStamp" src="/assets/stamps/RG-TwoStems.svg" alt="Two Stems Stamp"><br>
+                    </div>
 
 
 
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- CLASSIC PORTRAITS -->
 
 
     <!-- WHY BLACK & WHITE -->
+
+    <div class="modal fade ModalBlackWhite " tabindex="-1" aria-labelledby="ModalBlackWhite" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header bg-woodGrain">
+                    <div class="row col-12 p-0">
+                        <div class="col-12 text-end p-0">
+
+                            <button type="button" class="btn-close blackWhiteHeader" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="col-12 text-center p-0">
+                            <h2 class="colorForest text-center  pt-3">WHY</h2><br>
+                            <h1 class="colorForest text-center mt-2"> BLACK <br>+<br> WHITE?</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-header">
+
+
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+                        <div>
+
+
+
+                            <div>
+                                <p>Black and white photography strips away all the extra fluff. Its focus is on you
+                                    … your expressions, your truth, and how you interact with those you love. It
+                                    really is something special to be able to capture personality and emotion in a
+                                    single frame.
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div>
+                        <img class="sectionImage" src="/assets/images/Rhinehart.Family-8 copy.webp" alt="Rhinehart">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CLASSIC PORTRAITS -->
+    <div class="modal fade ModalClassicPort" tabindex="-1" aria-labelledby="ModalClassicPort" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header bg-woodGrain">
+                    <div class="row col-12 p-0">
+                        <div class="col-12 text-end p-0">
+
+                            <button type="button" class="btn-close blackWhiteHeader" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="col-12 text-center p-0">
+                            <h1 class="colorForest text-center mt-2"> CLASSIC PORTRAITS
+                            </h1>
+                            <h5 class="colorForest text-center">Driven by personality</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="text-center">
+
+                        <div>
+                            <p>Definitely not knocking it (we have these photos too!), but the same old family
+                                photos … golden hour in a field … trying to get everyone to smile at the camera
+                                … fingers crossed your kids are into it.
+                            </p>
+                            <br>
+                        </div>
+
+
+                        <div>
+                            <h5 class="colorForest text-center">It’s time for something different, right? </h5>
+                        </div>
+
+                        <div>
+                            <img id="leafStampStudio" src="/assets/stamps/RG-ThreeLeaf.svg" alt="Leaf Stamp"><br>
+                        </div>
+
+                        <div>
+                            <p>How about a session built around your schedule (not the sun or weather). Photography
+                                where you’re free to move and show your personality. And images you’ll see within
+                                one hour—you read that right, one hour—with our expert guidance to choose the best
+                                art for your home.
+                            </p>
+                            <br>
+                        </div>
+                        <div>
+                            <h2 class="colorMustard">At the end of the day, all of us crave images that capture who
+                                we are</h2>
+                            <br>
+                        </div>
+
+                        <div>
+                            <h5 class="colorForest text-center">the authentic, beautiful truth
+                                the essence we share with those we love
+                            </h5>
+                        </div>
+
+
+
+                        <div>
+                            <p>We’d love to create these images with you, from the second we connect through delivering
+                                personal, dynamic art for your home. <img id="circleStemModalStudio"
+                                    src="/assets/stamps/RG-CircleStem.svg" alt="Circle Stem">
+                            </p>
+
+                        </div>
+
+
+
+                        <div>
+                            <h5 class="colorForest text-center">How about it? Ready to see what modern portraits are all
+                                about?
+                            </h5>
+                        </div>
+
+                        <div class="text-center pb-3">
+                            <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                                target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                    STARTED</button></a>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <!-- TIMESLESS & MODERN -->
 
 
+    <div class="modal fade ModalTimeless" tabindex="-1" aria-labelledby="ModalTimeless" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
+
+                    <img class="sectionImage" src="/assets/images/Kramer.Jessica.Family-10.webp" alt="Kramer Jessica">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+
+                        <div>
+                            <p>Our black and white portraits are equal parts timeless and modern. They harken back to
+                                the classic portraiture of your grandparents, great-grandparents … yet they’re modern
+                                enough to complement any design in your home.
+                            </p>
+                            <br>
+                        </div>
+
+
+                        <div>
+                            <h5 class="colorSaddle text-center">We’re not just creating images, but a little piece of
+                                your heart preserved on the walls of your home.</h5>
+                        </div>
+
+
+                        <div>
+                            <p>Photography is an investment. That’s why guiding you through the process is a huge part
+                                of what we do. We never dump photos on you and expect you to choose, print, and place
+                                them in your homes yourselves. Let us do it for you!<br><br>
+
+                                We’ll present the very best images from your session and help you visualize where
+                                they’ll fit in your home with special design software. After you choose, our team will
+                                thoughtfully edit to make sure each image looks like you, but at your very best. Then
+                                we’ll work with our hand-picked producers to create your art and deliver it to your
+                                door. You can expect art on your walls within six weeks! (We don’t know about you, but
+                                that’s way less time than it takes us to remember that we’d planned to print out the
+                                photos living on our phones.)
+                            </p>
+                            <br>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- EACH PHOTO SESSION -->
+
+    <div class="modal fade ModalEach " tabindex="-1" aria-labelledby="ModalEach" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+                        <div>
+
+                            <div>
+                                <h5 class="colorForest">Each photo session is a <span class="nowrap">flat fee of
+                                        $300</span></h5>
+
+                            </div>
+
+                            <div>
+                                <p>This includes customized preparation for your session and our expert guidance to help
+                                    you choose the perfect prints for your home. <span class="colorDeepGreen">
+                                        <h6>The average family invests around
+                                            $1,500–$2,000.</h6>
+                                    </span>
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+
+
+                        <div>
+
+                            <div class="colorOyster text-center">
+                                <h2 class="colorOyster">Lets' plan your studio session</h2>
+                                <br>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="text-center pb-3">
+                            <a href="https://hello.dubsado.com:443/public/appointment-scheduler/5d5e18e2c3e046699e83878b/schedule"
+                                target="_blank"><button class="btn btn-outline-primary" type="submit">LET'S GET
+                                    STARTED</button></a>
+                        </div>
+
+                        <div>
+                            <h5 class="colorForest">Under an hour to see your images?
+                                Yes, ma’am.
+                            </h5>
+                            <br>
+                        </div>
+
+                        <div>
+                            <p>It’s all part of making your studio time feel like an experience, not a to-do. Our
+                                commitment
+                                is to take care of you, so it only makes sense to not make you wait to see all the
+                                gorgeous
+                                images we captured of you and your family. We invite you to chill in our comfortable
+                                space
+                                while we are hard at work editing your images, then we’ll present them. We build a
+                                showcase
+                                of only the best of the best since that takes the work off you to do the choosing.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class=" text-end">
+                        <img id="leafStampEach" src="/assets/stamps/RG-CircleStem.svg" alt="Circle Stamp Stem"><br>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- MATTED PRINTS -->
+    <div class="modal fade ModalMatted" tabindex="-1" aria-labelledby="ModalMatted" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
 
+                    <img class="sectionImage" src="/assets/pricing/Serrato.Mary.Family-32 copy.webp" alt="Serrato Mary">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div>
+
+                        <div>
+                            <h5 class="colorSaddle">Matted Prints</h5>
+                            <h6 class="colorOyster">STARTING AT $700</h6>
+                        </div>
+
+                        <div>
+                            <p>High quality, archival prints with elegant matting are created in an eco-friendly photo
+                                lab in Italy. These matted images use Lustre paper for a rich, true-to-life print. Our
+                                matted prints come in two sizes:
+                            </p>
+                            <br>
+                            <h6 class="colorOyster">
+                                <ul>
+                                    <li>8x10 image in an 11x14 mat </li>
+                                    <li>11x14 image in a 15x18 mat </li>
+
+                                </ul>
+                            </h6>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- PHOTO BOXES -->
+    <div class="modal fade ModalPhotoBoxes" tabindex="-1" aria-labelledby="ModalPhotoBoxes" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
+
+                    <img class="sectionImage" src="/assets/pricing/oseguera-13 copy.webp" alt="Oseguera">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div>
+
+                        <div>
+                            <h5 class="colorSaddle">Photo Boxes</h5>
+                            <h6 class="colorOyster">STARTING AT $2,250</h6>
+                        </div>
+
+                        <div>
+                            <p>Our 11x14 portrait boxes are hand-crafted of beautiful Italian leather and display one
+                                8x10 matted image at a time. The anti-scratch, acrylic lid functions as a frame, making
+                                our photo boxes a gorgeous way to preserve many images and display a variety throughout
+                                the year. Photos boxes can hold 10, 15, 20, 25 or 30 matted prints.
+                            </p>
+                            <br>
+                            <h6 class="colorOyster">
+                                <ul>
+                                    <li>8x10 image in an 11x14 mat </li>
+                                    <li>11x14 image in a 15x18 mat </li>
+
+                                </ul>
+                            </h6>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- CANVASES -->
+    <div class="modal fade ModalCanvases" tabindex="-1" aria-labelledby="ModalCanvases" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
+
+                    <img class="sectionImage" src="/assets/pricing/oseguera-15 copy.webp" alt="Osguera">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div>
+
+                        <div>
+                            <h5 class="colorSaddle">Canvases</h5>
+                            <h6 class="colorOyster">STARTING AT $1,850</h6>
+                        </div>
+
+                        <div>
+                            <p>Heirloom quality canvases are a thoroughly modern way to hang art on your walls. Our
+                                canvases are created in Italy with an expert eye toward craftsmanship, clean design, and
+                                an anti-glare finish. Canvases are easy to hang and come in two sizes:
+                            </p>
+                            <br>
+                            <h6 class="colorOyster">
+                                <ul>
+                                    <li>24x36 </li>
+                                    <li>30x40 </li>
+
+                                </ul>
+                            </h6>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- ACRYLICS -->
+    <div class="modal fade ModalAcrylics" tabindex="-1" aria-labelledby="ModalAcrylics" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
+
+                    <img class="sectionImage" src="/assets/pricing/Yoby.Tina.Family-171-Edit-Edit.webp" alt="Yoby Tina">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div>
+
+                        <div>
+                            <h5 class="colorSaddle">Acrylics</h5>
+                            <h6 class="colorOyster">STARTING AT $1,850</h6>
+                        </div>
+
+                        <div>
+                            <p>Sleek acrylics present your images on crystal clear glass and offer lots of
+                                customization. We work with a small business based in Seattle that runs the entire
+                                process in-house to create vibrant, fade-free acrylics that will appear to “float”
+                                against your wall and be lit from within. Our acrylics can be created with single images
+                                or as collages:
+                            </p>
+                            <br>
+                            <h6 class="colorOyster">
+                                <ul>
+                                    <li>Single image 24x36 or 30x40 </li>
+                                    <li>5-image collage 60x30 </li>
+                                    <li>11-image collage 40x40 </li>
+
+                                </ul>
+                            </h6>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- DIGITAL FILES -->
+    <div class="modal fade ModalDigital" tabindex="-1" aria-labelledby="ModalDigital" aria-hidden="true">
+        <div class="modal-dialog modal-xl ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="col-12 text-center p-0 align-self-center">
+
+                    <img class="sectionImage" src="/assets/pricing/Richart.Carley.Family-8 copy.webp"
+                        alt="Richart Carley">
+
+
+                </div>
+                <div class="modal-body">
+
+                    <div>
+
+                        <div>
+                            <h5 class="colorSaddle">What about digital files?</h5>
+                            <h6 class="colorOyster">STARTING AT $1,500</h6>
+                        </div>
+
+                        <div>
+                            <p>We’re big believers in the power of printed photography … but that doesn’t mean we’re
+                                over here pretending digital doesn’t exist. We offer high-res digital files to purchase,
+                                which is a great option for sharing on social media or printing on your own.<br>
+
+                                Our prints and packages are totally customizable, and we find many of our clients love
+                                to build a mix of wall art, portrait boxes, digital files, or the whole range.
+
+                            </p>
+                            <br>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- WHAT FEELS LIKE YOU -->

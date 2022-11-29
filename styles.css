@@ -210,6 +210,8 @@ section {
   background-position: top;
 }
 
+
+
 /* NAV */
 #mainLogo {
   width: 200px;
@@ -405,7 +407,18 @@ html {
 
 #leafStamp {
   width: 139px;
+  top: -22px;
+}
+
+#leafStampEach {
+  width: 108px;
   top: 2px;
+}
+
+#leafStampStudio {
+  width: 108px;
+  top: 2px;
+  transform: rotate(17deg);
 }
 
 #circleStem {
@@ -418,6 +431,13 @@ html {
 #circleStemModal {
   width: 88px;
   top: -40px;
+
+}
+
+#circleStemModalStudio {
+  width: 88px;
+  top: 50vh;
+
 
 }
 
