@@ -614,34 +614,32 @@ html {
 
 .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: var(--saddle);
+  color: var(--saddle);
   text-align: left;
   padding: 15px;
   font-weight: 600;
 }
 
- .php-email-form .error-message br + br {
+.php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
- .php-email-form .sent-message {
+.php-email-form .sent-message {
   display: none;
-  color: #fff;
-  background: var(--mustard);
+  color: var(--mustard);
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 
- .php-email-form .loading {
+.php-email-form .loading {
   display: none;
-  background: #fff;
+  color: var(--forest);
   text-align: center;
   padding: 15px;
 }
 
- .php-email-form .loading:before {
+.php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
