@@ -2,7 +2,7 @@
 
 
 // Replace contact@example.com with your real receiving email address
-$receiving_email_address = 'info@ranjaniGroth.com';
+$receiving_email_address = '6377bb3b3fecfcfa4d1d9306@replies.dubsado.com';
 
 if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
   include($php_email_form);
