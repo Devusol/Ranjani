@@ -612,7 +612,7 @@ html {
 
 /* CONTACT FORM */
 
-.contact .php-email-form .error-message {
+.php-email-form .error-message {
   display: none;
   color: #fff;
   background: var(--saddle);
@@ -621,11 +621,11 @@ html {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+ .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+ .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: var(--mustard);
@@ -634,14 +634,14 @@ html {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+ .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+ .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
