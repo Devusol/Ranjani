@@ -15,6 +15,7 @@
   --grey: #c6c6c9;
   --forest: #28493c;
   --deepGreen: #1c2e32;
+  --logoGrey: #b4b6bb;
 }
 
 .colorMustard {
@@ -52,6 +53,14 @@
   color: var(--deepGreen);
 }
 
+.colorDeepGreen {
+  color: var(--deepGreen);
+}
+
+.colorLogoGrey {
+  color: var(--logoGrey);
+}
+
 /* FONTS*/
 @font-face {
   font-family: "Gilroy-Black";
@@ -70,6 +79,14 @@
   src: url("/assets/fonts/DIN\ Condensed\ Bold.ttf");
 }
 
+.navbarFont {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: bold;
+}
+
 .aUnder {
   color: var(--rust);
   font-family: "Gilroy-Black";
@@ -80,8 +97,22 @@
   cursor: pointer;
 }
 
+.aUnder:hover {
+  color: var(--oyster);
+  font-family: "Gilroy-Black";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+  cursor: pointer;
+}
+
 *[data-bs-toggle="modal"] {
-  cursor: pointer
+  cursor: pointer;
+}
+
+*[data-bs-toggle="modal"]:hover h4 {
+  color: var(--rust);
 }
 
 h1 {
@@ -166,6 +197,20 @@ section {
   background-size: cover;
 }
 
+.bg-lightMarbleFooter {
+  background-image: url("/assets/textures/LightMarble.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .bg-lightMarbleFooter {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .bg-lightMarbleSmiles {
   background-image: url("/assets/textures/LightMarble.webp");
   background-repeat: no-repeat;
@@ -239,8 +284,6 @@ section {
   background-position: top;
 }
 
-
-
 /* NAV */
 #mainLogo {
   width: 200px;
@@ -257,6 +300,15 @@ section {
   font-family: "Gilroy-Black";
 }
 
+.btn-outline-primary:hover {
+  border-color: var(--mustard);
+  background-color: var(--mustard);
+  border-radius: 100px;
+  border-width: 2px;
+  color: white;
+  font-family: "Gilroy-Black";
+}
+
 .btn-primary {
   border-color: var(--mustard);
   background-color: var(--mustard);
@@ -264,6 +316,15 @@ section {
   border-width: 2px;
   color: white;
   font-family: "Gilroy-Black";
+}
+
+.btn-primary:hover {
+  border-color: var(--mustard);
+  border-radius: 100px;
+  border-width: 2px;
+  color: var(--mustard);
+  font-family: "Gilroy-Black";
+  background-color: white;
 }
 
 /* HERO */
@@ -346,7 +407,6 @@ html {
 }
 
 .sectionImageFull100 {
-
   object-fit: cover;
   object-position: 0% 20%;
 }
@@ -491,14 +551,11 @@ html {
 #circleStemModal {
   width: 88px;
   top: -40px;
-
 }
 
 #circleStemModalStudio {
   width: 88px;
   top: 50vh;
-
-
 }
 
 #circleTwoModal {
@@ -542,11 +599,8 @@ html {
 }
 
 .modal-xl {
-
   opacity: 97%;
-
 }
-
 
 /* BUTTON CLOSE */
 
@@ -554,5 +608,4 @@ html {
   background: url("/assets/stamps/x.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  
- }
+}
