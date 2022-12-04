@@ -88,6 +88,15 @@
   text-decoration: none;
 }
 
+
+ .navbar.scrolled {
+  background-image: url("/assets/textures/LightMarble.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000000;
+
+} 
+
 .aUnder {
   color: var(--rust);
   font-family: "Gilroy-Black";
@@ -346,8 +355,8 @@ html {
   background-image: url("/assets/images/Groth_FatherDaughter.webp");
 
   /* Set a specific height */
-  height: 93%;
-  top: 7%;
+  height: 100%;
+  top: 0%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: top;
@@ -667,10 +676,6 @@ html {
   line-height: 5.5rem;
 }
 
-
-
-.centerPlus{
-  margin-bottom: 80px
+.centerPlus {
+  margin-bottom: 80px;
 }
-
-
