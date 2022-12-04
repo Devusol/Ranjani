@@ -293,6 +293,12 @@ section {
   z-index: 100;
 }
 
+#mainLogoSpecials {
+  width: 200px;
+  top: 2px;
+  z-index: 100;
+}
+
 .btn-outline-primary {
   border-color: var(--mustard);
   border-radius: 100px;
@@ -652,3 +658,12 @@ html {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
+
+.Special-Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40vh;
+  line-height: 5.5rem;
+}
+
