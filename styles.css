@@ -92,7 +92,7 @@
   background-image: url("/assets/textures/LightMarble.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1000000;
+  z-index: 1000;
 }
 
 .aUnder {
@@ -597,6 +597,13 @@ html {
 
 .modal-header {
   border: none;
+}
+
+
+
+.modal {
+  top: 55px;
+  z-index: 100000;
 }
 
 .form-control {
