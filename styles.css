@@ -86,6 +86,28 @@
   margin: 0;
   font-weight: bold;
   text-decoration: none;
+  color:  var(--logoGrey);
+}
+
+.navbar-toggler-icon {
+  background-image: url("/assets/logos/hamburger.svg");
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  cursor: pointer;
+}
+
+
+.navbarFontScrolled {
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color:  var(--deepGreen);
 }
 
 .navbar.scrolled {
