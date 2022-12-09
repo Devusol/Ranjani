@@ -208,7 +208,7 @@ h6 {
   letter-spacing: 1px;
   margin: 0;
 }
-p {
+p, li, ul {
   color: black;
   font-family: "Gilroy-Regular";
   font-size: 16px;
@@ -284,6 +284,14 @@ section {
   background-size: cover;
 }
 
+.bg-pebble-fixed{
+  background-image: url("/assets/textures/Pebble.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-sandGrain {
   background-image: url("/assets/textures/SandGrain.webp");
   background-repeat: no-repeat;
@@ -345,6 +353,23 @@ section {
   font-family: "Gilroy-Black";
 }
 
+.btn-outline-secondary {
+  border-color: var(--saddle);
+  border-radius: 100px;
+  border-width: 2px;
+  color: var(--saddle);
+  font-family: "Gilroy-Black";
+}
+
+.btn-outline-secondary:hover {
+  border-color: var(--saddle);
+  background-color: var(--saddle);
+  border-radius: 100px;
+  border-width: 2px;
+  color: white;
+  font-family: "Gilroy-Black";
+}
+
 .btn-primary {
   border-color: var(--mustard);
   background-color: var(--mustard);
@@ -399,6 +424,90 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.hero-image-specials {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/assets/images/specials/farris-med-res-10-copy.webp");  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: top;
+    min-height: 100vh;
+}
+
+.hero-image-package{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/McElligott.Family-02372\ copy.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.hero-special-works{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/Kramer.Jessica.Family-4\ copy.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.hero-special-foryou{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/Hatcher.Shanda.Family-94\ copy.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.hero-special-different{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/Hanson.Andrea.Family-65\ copy.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.hero-special-deets{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/Franks.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.hero-special-saying{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/assets/images/specials/Gonzalez.Jazmine.Family-13\ copy.webp");  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+  min-height: 60vh;
 }
 
 /* Place text in the middle of the image */
@@ -615,6 +724,10 @@ html {
   max-height: 30px;
 }
 
+footer {
+  background-color: white;
+}
+
 /* CONTACT MODAL */
 
 .modal-header {
@@ -709,4 +822,52 @@ html {
 
 .centerPlus {
   margin-bottom: 80px;
+}
+
+
+/* Specials Page */
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.bg-light {
+background-color: white !important;
 }
