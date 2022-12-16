@@ -427,15 +427,38 @@ html {
 }
 
 .hero-image-specials {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("/assets/images/specials/farris-med-res-10-copy.webp");  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: top;
-    min-height: 100vh;
+  background-image: url(/assets/images/specials/farris-med-res-10-copy.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  background-position: top;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+
+  /* flex-basis: fit-content;*/
+}
+
+.hero-image-specials-mobile {
+  background-image: url(/assets/images/specials/farris-med-res-10-copy.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  background-position: top;
+  width: 100vw;
+  height: 79vw ;
+  object-fit: contain;
+ 
+
+  /* flex-basis: fit-content;*/
+}
+
+
+
+.herospecials {
+  height:auto !important;
 }
 
 .hero-image-package{
@@ -666,6 +689,14 @@ html {
 .col-39 {
   flex: 0 0 auto;
   width: calc(33.3333% - 2px);
+
+}
+
+.col150 {
+  min-height: 150px;
+  flex-wrap: wrap;
+  display: flex;
+
 }
 
 .stonePaper {
@@ -673,9 +704,28 @@ html {
   margin: auto;
 }
 
-#leafStamp {
+.leafStamp {
   width: 139px;
   top: -22px;
+}
+
+.bottomright {
+
+  bottom: -30px;
+  right: -20px;
+  overflow: hidden;
+}
+
+.bottomrightfull {
+  bottom: -30px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.topleft {
+  top: -30px;
+  left: -40px;
+  overflow: hidden;
 }
 
 #leafStampEach {
@@ -683,10 +733,19 @@ html {
   top: 2px;
 }
 
-#leafStampStudio {
+.leafStampStudio {
   width: 108px;
   top: 2px;
   transform: rotate(17deg);
+}
+
+.leafStampCircle {
+  width: 108px;
+}
+
+.dotsoffset {
+  width: 108px;
+  top: 2px;
 }
 
 #circleStem {
@@ -870,4 +929,17 @@ footer {
 
 .bg-light {
 background-color: white !important;
+}
+
+
+.calendar-circle {
+  background-image: url("/assets/stamps/calendar.svg");
+  cursor: pointer;
+  position: absolute;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  z-index: 10000;
+  right: 10px;
+  bottom: 10px;
 }
